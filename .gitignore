@@ -1,0 +1,51 @@
+# Compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+whatsapp-viewer
+whatsapp-viewer-linux
+whatsapp-viewer-darwin*
+
+# Test binaries & coverage reports
+*.test
+*.out
+coverage.html
+cpu.pprof
+mem.pprof
+
+# Output directories & exports
+/bin/
+/dist/
+/exports/
+/out/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Go vendor (if not intentionally tracked)
+# vendor/
+
+# Local databases, backup keys & dumps (keep sensitive data private)
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.crypt*
+key
+
+# Environment variables & secrets
+.env
+.env.*
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
